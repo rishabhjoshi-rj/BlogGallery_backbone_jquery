@@ -59,7 +59,7 @@ var ListView = Backbone.View.extend({
 
 //Formview
 var FormView = Backbone.View.extend({
-  el: "body",
+  el: "#top",
   initialize: function () {
     console.log("Enter the form777");
   },
@@ -120,7 +120,7 @@ var FormView = Backbone.View.extend({
 });
 
 var pageView = Backbone.View.extend({
-  el: "body",
+  el: "#cards",
 
   initialize: function () {
     console.log("PageView");
